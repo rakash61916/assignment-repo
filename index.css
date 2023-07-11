@@ -1,0 +1,367 @@
+*{
+    margin: 0 auto;
+    padding: auto;
+}
+body{
+    font-family: 'Chela One', cursive;
+}
+header .hd{
+    font-family: Lucida;
+    
+}
+.cntnt{
+    display: flex;
+    align-items: center;
+    background-color: #fcb6f88c;
+    width: 100%;
+    height: 100px;
+    
+}
+
+nav{
+    width: 300px;
+    height: 70px;
+    box-shadow: -3px 5px 8px 0px black;
+    margin: 0px;
+    border-radius: 50px;
+}
+.f{
+    color: rgb(0, 26, 255);
+}
+nav>ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav>ul>li{
+    list-style-type: none;
+    align-items: center;
+    border-left: 2px solid #ffc4fc;
+    border-right:2px solid #fa91f5;
+    height: 70px;
+    transition: 0.5s all ease;
+    border-radius: 50px;
+}
+#nav li:first-child{
+    border-left:none;
+}
+#nav li:first-child:hover{
+    border-left: none;
+}
+nav>ul>li:last-child{
+    border-right:none;
+}
+nav>ul>li:last-child:hover{
+    border-right: none;
+}
+#nav li:hover{
+    background-color: #6e456c;
+    border-left:2px solid #9c6299;
+    border-right: 2px solid #4a2c48;
+    
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    display: block;
+    padding: 16px 38px 0px 36px;
+    transition: 0.5s all ease;
+}
+#nav li a:hover{
+    color:white;
+    
+}
+.srch-bar{
+    width: 310px;
+    height: 55px;
+    border-radius: 50px;
+    padding: 10px 20px 0px 0px;
+    background: rgba(65, 65, 65, 0.514);
+    display: flex;
+}
+.srch-bar input{
+    background: transparent;
+    flex: 1;
+    outline: none;
+    padding: 25px 31px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+::placeholder{
+    color: black;
+}
+.srch-bar button img{
+    width: 43px;
+    height: 30px;
+    
+}
+.srch-bar button{
+    border:0;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    background-color: #bdbdbd;
+}
+.body{
+    background-color: rgba(229, 84, 115, 0.10);
+    ;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    
+}
+.cntnt1{
+    width: 410px;
+    height: 150px;
+}
+.cntnt1 h1{
+    margin: 15px;
+}
+.cntnt1 p{
+    margin: 15px;
+}
+.cntnt1 button{
+    margin: 15px;
+}
+.btn{
+    border-radius:10px;
+    width: 125px;
+    height: 50px;
+    border: 0;
+    background-color: #f556da;
+    box-shadow: -3px 5px 8px 0px black;
+    color:#611754;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s all ease;
+}
+.btn:hover{
+    background-color:white;
+    color:rgba(229, 84, 115, 50);
+}
+img{
+    display: flex;
+    align-items: center;
+}
+.bns{
+    width: 100%;
+    height: 500px;
+    margin: 100px 0px 0px 0px;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Chela One', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+.lekha h2{
+    font-size: 30px;
+    margin: 0px 0px 20px 0px;
+}
+.lekha p{
+    font-size: 20px;
+}
+.div{
+    display: flex;
+    float: left;
+    width: 250px;
+    height: 320px;
+    border: 0;
+    border-radius: 130px 130px 0px 0px;
+    margin: 30px 82px 0px 115px;
+}
+.div1{
+    background-color: rgba(238, 255, 0, 0.534);
+}
+.div2{
+ background-color: rgba(255, 0, 0, 0.466);
+}
+.div3{
+    background-color: #ae00ff70;
+}
+.img1{
+    width: 245px;
+    height: 234px;
+    margin-top: 60px;
+}
+.img2{
+    width: 245px;
+    height: 234px;
+    margin-top: 60px;
+}
+.img3{
+    width: 156px;
+    height: 231px;
+    margin-top: 60px;
+}
+figcaption{
+    text-align: center;
+}
+.ofr{
+    display: flex;
+    margin: 60px 0px 0px 0px;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(229, 84, 115, 0.05);
+    align-items: center;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Chela One', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+.cntnt2{
+    margin: 0px 0px 0px 145px;
+}
+.fig2{
+    border-radius: 10px;
+    box-shadow: 0px 9px 12px 0px black;
+    width: 370px;
+    height: 420px;
+}
+.img4{
+    width: 250px;
+    height: 300px;
+}
+.img4 figcaption{
+    text-align: center;
+}
+.img4 figcaption h4{
+    margin-top: 10px;
+    font-family: 'Chela One', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+.img4 figcaption p{
+    margin: 10px 0px 0px 0px;
+    font-family: 'Chela One', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn2{
+    
+    border-radius:10px;
+    width: 125px;
+    height: 50px;
+    border: 0;
+    background-color: rgba(229, 84, 115, 0.05);
+    box-shadow: -3px 5px 8px 0px black;
+    color:#ff00d0;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s all ease;
+}
+.btn2:hover{
+    background-color:rgb(255 0 55 / 18%);
+    color: rgb(76, 0, 99);
+}
+.share{
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+}
+.cntnt3{
+    text-align: center;
+}
+.cntnt3 h2{
+    margin: 30px 0px 0px 0px;
+}
+.imgs{
+    margin: 50px 0px 0px 150px;
+}
+.fig{
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+.fig3{
+    background-color: #ff00004f;
+    transition: .5s all ease;
+}
+.fig3:hover{
+    background-color: #ff0000bd;
+}
+.fig4{
+    background-color: #ffa6004f;
+    transition: .5s all ease;
+}
+.fig4:hover{
+    background-color: #ffa600ad;
+}
+.fig5{
+    background-color: #8888884f;
+    transition: .5s all ease;
+}
+.fig5:hover{
+    background-color: #888888d1;
+}
+.fig6{
+    background-color: #00cfff5c;
+    transition: .5s all ease;
+}
+.fig6:hover{
+    background-color: #00cfffc4;
+}
+.imgg{
+    margin:10px 0px 0px 50px;
+}
+.img5{
+    
+    height: 220px;
+}
+.img6{
+    width: 171px;
+    height: 225px;
+}
+
+.img7{
+    width: 210px;
+    height: 221px;
+    margin: 16px 0px 0px 17px;
+}
+.img8{
+    width: 229px;
+    height: 209px;
+    margin: 22px 0px 0px 10px;
+}
+.srch{
+    width: 1108px;
+    height: 450px;
+    background-image: url(images/Wedding_invitation_template_with_watercolor_green_yellow_leaf_frame_background.jpg);
+    background-size: 1108px 450px;
+    text-align: center;
+}
+.frm{
+    margin: 20px 0px 0px 0px;
+}
+.srch1{
+    padding: 165px 0px 0px 0px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color:rgba(0, 204, 255, 0.541) ;
+    color: rgb(0, 26, 255);
+    padding-top:115px;
+    text-align: center;
+    margin-top: 115px;
+    font-family: 'Chela One', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+span{
+    color:#ff00d4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
