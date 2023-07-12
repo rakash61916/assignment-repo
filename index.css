@@ -86,13 +86,13 @@ nav>ul>li>a{
     background: transparent;
     flex: 1;
     outline: none;
-    padding: 25px 31px;
+    padding: 0px 30px;
     font-size: 17px;
     color: rgb(0, 0, 0);
     border: none;
 }
 ::placeholder{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .srch-bar button img{
     width: 43px;
@@ -100,12 +100,17 @@ nav>ul>li>a{
     
 }
 .srch-bar button{
-    border:0;
+    border: 0;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: 43px;
+    height: 44px;
     cursor: pointer;
-    background-color: #bdbdbd;
+    background-color: #bdbdbdc4;
+    padding: 0px 0px 0px 0px;
+    transition: 0.5s all ease;
+}
+.srch-bar button:hover{
+    background-color: #4747478e;
 }
 .body{
     background-color: rgba(229, 84, 115, 0.10);
@@ -333,7 +338,40 @@ figcaption{
     text-align: center;
 }
 .frm{
-    margin: 20px 0px 0px 0px;
+    width: 345px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 4px 5px 0px 0px;
+    background: rgb(47 120 150 / 24%);
+    display: flex;
+}
+
+.eml{
+    border:none;
+    background:transparent;
+    flex:1;
+    outline:none;
+    padding: 0px 0px 0px 20px;
+    font-size: 15px;
+    color: rgb(7, 59, 80);
+}
+.smt{
+    border: 0;
+    border-radius: 50px;
+    width: 90px;
+    height: 45px;
+    cursor: pointer;
+    background-color: rgb(47 120 150 / 24%);
+    padding: 0px 0px 0px 0px;
+    transition: 0.5s all ease;
+    font-size: 17px;
+    font-weight: bolder;
+    color: rgba(47, 121, 150, 0.445);
+}
+.smt:hover{
+    background-color: rgb(29 162 217 / 58%);
+    color: rgb(7, 59, 80);
 }
 .srch1{
     padding: 165px 0px 0px 0px;
